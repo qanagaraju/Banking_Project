@@ -57,12 +57,20 @@ public class LoginAppService
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void verify_Invalid_login() {
 		
-		logintest=PageFactory.initElements(driver, LoginTestCase.class);
-		logintest.insertusername("tester").insertpassword("admin").clicksubmit().clicksignout();
-		System.out.println("starting browser");	
+		try {
+			
+			logintest=PageFactory.initElements(driver, LoginTestCase.class);
+			logintest.insertusername("tester").insertpassword("admin").clicksubmit().clicksignout();
+			System.out.println("starting browser");	
+			
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+		
 	}
 	
 
