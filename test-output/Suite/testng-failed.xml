@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="password" value="admin123"/>
-  <parameter name="username" value="qatrainer"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.App_TestCases.LoginAppService">
+      <class name="cucumber_Project.TestRunner">
         <methods>
-          <include name="setupsuite"/>
-          <include name="startBrowser"/>
-          <include name="testDown"/>
-          <include name="verify_valid_login"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.App_TestCases.LoginAppService -->
+      </class> <!-- cucumber_Project.TestRunner -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

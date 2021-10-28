@@ -1,0 +1,17 @@
+
+@featureTest @Scenario2
+Scenario: My login Test        # App_Features/login.feature:6
+  Given user launch browser    # cucumber_Project.Login_Step_Definition.user_launch_browser()
+  When user insert username    # cucumber_Project.Login_Step_Definition.user_insert_username()
+  When user insert password    # cucumber_Project.Login_Step_Definition.user_insert_password()
+  Then user click login button # cucumber_Project.Login_Step_Definition.user_click_login_button()
+  Then user close test         # cucumber_Project.Login_Step_Definition.user_close_test()
+
+@featureTest @Scenario1
+Scenario: My basic contact form Test # App_Features/test.feature:5
+  Given user launch home page        # cucumber_Project.Basic_Contact_Step_Definition.user_launch_home_page()
+  When user clicks on sampleforms    # cucumber_Project.Basic_Contact_Step_Definition.user_clicks_on_sampleforms()
+  When user enters subject           # cucumber_Project.Basic_Contact_Step_Definition.user_enters_subject()
+  When user enters email id          # cucumber_Project.Basic_Contact_Step_Definition.user_enters_email_id()
+  And user enters textfield data     # cucumber_Project.Basic_Contact_Step_Definition.user_enters_textfield_data()
+  Then user close browser            # cucumber_Project.Basic_Contact_Step_Definition.user_close_browser()

@@ -1,0 +1,212 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-28T01:21:54.878Z",
+        "line": 6,
+        "name": "My login Test",
+        "description": "",
+        "id": "test-script-for-cucumber-login-cases;my-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6058348000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user launch browser",
+            "match": {
+              "location": "cucumber_Project.Login_Step_Definition.user_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246272600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user insert username",
+            "match": {
+              "location": "cucumber_Project.Login_Step_Definition.user_insert_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141400200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user insert password",
+            "match": {
+              "location": "cucumber_Project.Login_Step_Definition.user_insert_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1102058800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click login button",
+            "match": {
+              "location": "cucumber_Project.Login_Step_Definition.user_click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275582100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user close test",
+            "match": {
+              "location": "cucumber_Project.Login_Step_Definition.user_close_test()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@featureTest"
+          },
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Test script for cucumber login cases",
+    "description": "",
+    "id": "test-script-for-cucumber-login-cases",
+    "keyword": "Feature",
+    "uri": "file:App_Features/login.feature",
+    "tags": [
+      {
+        "name": "@featureTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-28T01:22:02.779Z",
+        "line": 5,
+        "name": "My basic contact form Test",
+        "description": "",
+        "id": "test-script-for-contact-form-test-cases;my-basic-contact-form-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4055287800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launch home page",
+            "match": {
+              "location": "cucumber_Project.Basic_Contact_Step_Definition.user_launch_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2131178500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on sampleforms",
+            "match": {
+              "location": "cucumber_Project.Basic_Contact_Step_Definition.user_clicks_on_sampleforms()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190496800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters subject",
+            "match": {
+              "location": "cucumber_Project.Basic_Contact_Step_Definition.user_enters_subject()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186498600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters email id",
+            "match": {
+              "location": "cucumber_Project.Basic_Contact_Step_Definition.user_enters_email_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168694500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters textfield data",
+            "match": {
+              "location": "cucumber_Project.Basic_Contact_Step_Definition.user_enters_textfield_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412229200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user close browser",
+            "match": {
+              "location": "cucumber_Project.Basic_Contact_Step_Definition.user_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@featureTest"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Test script for contact form test cases",
+    "description": "",
+    "id": "test-script-for-contact-form-test-cases",
+    "keyword": "Feature",
+    "uri": "file:App_Features/test.feature",
+    "tags": [
+      {
+        "name": "@featureTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
